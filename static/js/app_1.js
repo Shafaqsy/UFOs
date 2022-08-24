@@ -6,7 +6,6 @@ var tbody = d3.select("tbody");
 // clear the existing data.
 function buildTable(data) {
     tbody.html("");
-}
 // Next, loop through each object in the data
 // and append a row and cells for each value in the row
 data.forEach((dataRow) => {
@@ -19,6 +18,7 @@ data.forEach((dataRow) => {
         cell.text(val);
     });
 });
+}
 
 function handleClick() {
     // Grab the datetime value from the filter
