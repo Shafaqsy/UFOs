@@ -16,3 +16,11 @@ Here's an example. If user is only interested in state of Ohio. All the user nee
 <img width="880" alt="ohio search" src="https://user-images.githubusercontent.com/107155888/187003098-cb00b756-921c-4707-b66b-d9da2334ee4d.png">
 
 ## Summary
+### Drawback.
+Filter search is very sensitive the format has to be followed otherwise there would be no data in the table. For example we did the oh search earlier if wo would have capitalize the word OH, the filter search wouldn't recognize it and give a empty table as a result.
+
+### Recomendations.
+1. The filter should allow upper cease and lower case letters.
+2. The filter search able to catch what the user meant either there's space or no spaces between cities names like san diego or sandiego.
+3. The date filter should also be recognized in any format like 01/03/2010 or 1/3/2010.
+4. The duration filter can also be added for user.
